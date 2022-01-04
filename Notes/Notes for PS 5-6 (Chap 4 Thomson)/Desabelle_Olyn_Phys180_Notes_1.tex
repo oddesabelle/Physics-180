@@ -1,0 +1,141 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[version=4]{mhchem}
+\usepackage{physics}
+\usepackage{mathtools}
+%\DeclarePairedDelimiter\bra{\langle}{\rvert}
+%\DeclarePairedDelimiter\ket{\lvert}{\rangle}
+%\DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1 \delimsize\vert #2}
+%\definecolor{shadecolor}{named}{red!25!green!50!blue!75}
+\colorlet{NextBlue}{red!25!green!50!blue!75}
+%\colorlet{shadecolor}{orange!15}
+\colorlet{shadecolor}{NextBlue!40}
+\parindent 0in
+\parskip 10pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+\setcounter{section}{1}
+\title{Nuclear phenomenology}
+
+%==============================================================
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Physics 180}
+\chead{Nuclear phenomenology}
+\lhead{Olyn D. Desabelle}
+\rfoot{Page \thepage}
+\setlength{\headheight}{12.0pt}
+
+\begin{center}
+{\LARGE \bf Nuclear phenomenology}\\
+%{\large Physics 170}\\
+%Olyn D. Desabelle
+\end{center}
+
+\section*{Nuclides}%----------------------------------------
+
+%\subsection*{Dilute Interacting Bose gas}
+
+Nuclides are typically written as:
+
+$$\ce{^{A}_{Z}Y}$$
+
+where we note that:
+
+\begin{align*}
+    &A\text{ is the }\textbf{mass/nucleon number}\text{ (\# of nucleons)}\\
+    &Z\text{ is the }\textbf{proton/atomic number}\text{ (\# of protons)}\\
+    &N\text{ is the }\textbf{neutron number}\text{ (\# of neutrons)}\\
+\end{align*}
+
+with $\mathbf{A = Z+N}$. We also note that isotopes with: same $A$ = isobars; same $Z$ = isotopes; same $N$ = isotones. Some elements have multiple isotopes, with different stabilty and abundance.
+%\begin{shaded}
+    %\textbf{Cooper pairs}\newline
+%    \todo[inline, color = lime!20,caption={}]{
+%        $$\ce{^{A}_{Z}Y}$$
+        %$$\text{with } A = Z+N$$
+%   }
+    %where we note that:
+    %\todo[inline, color=lime!20,caption={}]{
+        %$A$ is the \textbf{mass/nucleon number} (\# of nucleons), \newline
+        %$Z$ is the \textbf{proton/atomic number} (\# of protons), and \newline
+        %$N$ is the \textbf{neutron number} (\# of neutrons).\newline
+        %\begin{align*}
+        %&A\text{ is the }\textbf{mass/nucleon number}\text{ (\# of nucleons)}\\
+        %&Z\text{ is the }\textbf{proton/atomic number}\text{ (\# of protons)}\\
+        %&N\text{ is the }\textbf{neutron number}\text{ (\# of neutrons)}\\
+%        \end{align*}
+%    }
+%    with $\mathbf{A = Z+N}$. We also note that isotopes with: same $A$ = isobars; same $Z$ = isotopes; same $N$ = isotones. Some elements have multiple isotopes, with different stabilty and abundance.
+%\end{shaded}
+
+\section*{Nuclear shapes and sizes}%----------------------------------------
+
+Nuclei may be treated as static charge distributions with normalization:
+
+\begin{align*}
+    \int f(\mathbf{r})\text{d}^3\mathbf{r} = Ze
+\end{align*}
+
+where $e$ is the electron charge. Under the Born approximation, the cross-section $\frac{d\sigma}{d\Omega}$ is given by:
+
+\begin{align*}
+    \left(\frac{d\sigma}{d\Omega}\right)_0 &= 
+    \frac{Z^2 \alpha^2 (\hbar c)^2}{4\beta^4 E^2 \sin^4(\theta/2)}
+\end{align*}
+
+including the electron spin, the Mott cross-section is given by:
+
+\begin{align*}
+    \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}} &=
+    \left(\frac{d\sigma}{d\Omega}\right)_0 [1-\beta^2\sin^2(\theta/2)]
+\end{align*}
+
+in the nonrelativistic limit with no spin dependence, the Rutherford cross-section is given by:
+
+\begin{align*}
+    \left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}} &=
+    \frac{(\hbar c)^2 (\alpha Z)^2}{4m^2 v^4 \sin^4(\theta/2)}
+\end{align*}
+
+
+\section*{SEMF}%----------------------------------------
+
+
+\section*{$\alpha$ emissions}%----------------------------------------
+%---------------------------------------
+%----------------------------------------
+\end{document}

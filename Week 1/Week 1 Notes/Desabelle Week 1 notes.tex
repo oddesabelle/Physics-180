@@ -1,0 +1,203 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage{float}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=1cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1.5in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+\setcounter{section}{1}
+%\setcounter{subsection}{}
+\title{Chapter 1 Review Notes}
+
+%==============================================================
+%\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Week 1 Notes}\\
+{\large Physics 180}\\
+1.1, Martin 3rd Ed
+\end{center}
+
+
+\subsection{History}
+\subsubsection{Origins of Nuclear Physics}
+1896: Becquerel accidentally discovered radioactivity, when he observed photographic plates being fogged by radiation from uranium ores
+
+\begin{shaded}
+    \textbf{Radioactivity} \newline
+    The fact that some chemicals spontaneously emit radiation  (coined by Marie Curie).
+\end{shaded}
+
+1897: Curies discovered polonium and radium.
+
+
+xxxx: Rutherford named radiation $\alpha$ rays and $\beta$ rays.
+
+
+1900: Villard discovered $\gamma$ rays.
+
+\begin{shaded}
+\noindent\textbf{$\alpha$, $\beta$, and $\gamma$ Rays} \newline
+    $\alpha$ rays = doubly ionised helium atoms \newline
+    $\beta$ rays = electrons \newline 
+    $\gamma$ rays = photon emission
+\end{shaded}
+
+\begin{quote}
+    These discoveries regarding radiation challenged the reigning atomic model of Dalton, with atoms being "indivisible". Then where did energy from radiation come from? Erroneous assumptions include:
+
+    $\times$ energy was absorbed from atmosphere?
+
+    $\times$ energy conservation does not apply to radioactive processes?
+\end{quote}
+
+1900: Rutherford digs into half-life, showing non-linearity of intensity of emitted radiation.
+
+\begin{shaded}
+    \textbf{Half-life} \newline
+    Time for intensity of emitted radiation to reduce by a factor of 2. An intrinsic property dependent only on the material (not the amount). 
+\end{shaded}
+
+1902: Rutherford and Soddy come up with transformation theory
+
+\begin{shaded}
+    \textbf{Transformation theory} \newline
+    Decaying atoms of a radioactive element transform into atoms of another element.
+\end{shaded}
+
+\begin{quote}
+    But which elements are radioactive and which are stable?
+\end{quote}
+
+1897: Thomson measures mass and charge of electrons
+
+1903: Thomson suggests plum pudding model of the atom.
+
+\begin{shaded}
+    \textbf{Plum pudding model} \newline
+    Electrons are embedded and free to move in a region of positive charge filling the entire volume of the atom (plum = electrons, pudding = positively charged region [?])
+\end{shaded}
+
+\begin{quote}
+    However, the plum pudding model does not explain discrete wavelengths of emitted light from excited atoms.
+\end{quote}
+
+
+1909: Rutherford, Geiger, and Marsden carry out gold foil experiment.
+
+1911: Rutherford proposes the nuclear model of the atom.
+
+\begin{shaded}
+    \textbf{Gold foil experiment vs. plum pudding} \newline
+    Consists of scattering $\alpha$ particles from thin gold foils. According to plum pudding model, particles should pass freely with some small angle deflections. However, some deflections had large angles.
+
+    This led to the notion of having a small, dense, central nucleus with net positive charge, which would be used for the nuclear model fo the atom.
+
+    \textbf{Nuclear model} \newline
+    Light electrons orbiting a heavy positively charged central nucleus (like planets orbiting the sun). 
+\end{shaded}
+
+\begin{quote}
+    In the simplest case of hydrogen, one electron orbits one proton, having charges $-e$ and $+e$ respectively to ensure net electrical neutrality of the atom.
+\end{quote}
+
+xxxx: Soddy shows isotopism
+
+\begin{shaded}
+    \textbf{Isotopism} \newline
+    Some chemical elements have atoms with different atomic masses but same chemical properties (isootopes).
+
+    \textbf{Prout's Law} \newline
+    All elements have integer atomic masses in units of the mass of the hydrogen atom (atomic weights).
+\end{shaded}
+
+\begin{quote}
+    Prout's Law alone could not explain how certain elements have non-integer atomic weights, like Chlorine with 35.5 au. With isotopism, this phenomenon can now be explained with the abundance of isotopes of the same element with different integer atomic weights, the mixture of such isotopes giving a non-integer average atomic weight. In the case of Chlorine, it consists of isotopes with atomic weights 35.0 au and 37.0 au.
+\end{quote}
+
+1913: Bohr incorporated quantum theory into atomic physics
+
+\begin{shaded}
+    \textbf{Bohr-Rutherford model} \newline
+    Motion of electrons is confined to a set of discrete orbits (would explain the discrete electromagnetic spectra from atom decay).
+\end{shaded}
+
+1913: Moseley demonstrated that a charge on the nucleus is $+Ze$ ($Z$ is the atomic number) and this implies that there are $Z$ electrons present as well to retain net electrical neutrality. 
+
+\begin{quote}
+    With different isotopes having different radioactive decay properties (isotopes having similar number of electrons but different nuclear masses), it was established that radioactivity was a nuclear phenomenon.
+\end{quote}
+
+1932: Chadwick's experiment (with Irene Curie's + Frederic Joliot's experiments) implied the existence of the neutron.
+
+%\begin{shaded}
+    %\textbf{Existence of the neutron} \newline
+    %They observed that neutral radiation was emitted when $\alpha$ particles bombarded beryllium
+%\end{shaded}
+
+\begin{shaded}
+    \textbf{The nuclear model} \newline
+    An isotope of atomic number $Z$ and mass number $A$ is a bound state of $Z$ protons and $(A-Z)$ neutrons; there are no electrons bound inside nuclei.
+\end{shaded}
+
+1914: Chadwick discovers continuous $\beta$-decay spectrum.
+
+\begin{quote}
+    Nuclear decays were viewed as two-body decays:
+    $$ \text{parent nucleus} \rightarrow \text{daughter nucleus} + (\alpha\text{ particle or } e^- \text{ or photon}  ) $$
+    Then by conservation of energy and momentum, the emitted particle would have a unique energy dependent on the mass of parent and daughgter nucleons. This was observed for $\alpha$ and $\gamma$ decays, but Chadwick's experiment on $\beta$ decays showed continuous energy distribution.
+\end{quote}
+
+\begin{quote}
+    Pauli proposed that the $\beta$ deca produced another particle that barely interacts matter (that it was not detected) and is very light (as energetic electrons carried off most of the released energy). It was then called the neutrino by Fermi.
+\end{quote}
+
+\begin{shaded}
+    \textbf{Strong nuclear force} \newline
+    The force binding the nucleus that does not depend on the charge of the nucleon.
+
+    \textbf{Weak interaction} \newline
+    Weak force responsible for $\beta$ decays.
+\end{shaded}
+
+\subsubsection{Emergence of particle physics: hadrons and quarks}
+Lorem ipsum
+\subsubsection{Standard model of particle physics}
+Lorem ipsum
+
+\end{document}
