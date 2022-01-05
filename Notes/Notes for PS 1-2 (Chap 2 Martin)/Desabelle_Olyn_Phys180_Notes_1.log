@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  5 JAN 2022 02:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  6 JAN 2022 01:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/olynd/Documents/4th Year 1st Sem/Physics-180/PSets/PSet 1/Notes for PS 1/Desabelle_Olyn_Phys180_Notes_1.tex"
-(d:/olynd/Documents/4th Year 1st Sem/Physics-180/PSets/PSet 1/Notes for PS 1/Desabelle_Olyn_Phys180_Notes_1.tex
+**"d:/olynd/Documents/4th Year 1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.tex"
+(d:/olynd/Documents/4th Year 1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -868,24 +868,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 74.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) 
-AED: lastpage setting LastPage
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+) [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2] (./Desabelle_Olyn_Phys180_Notes_1.aux) ) 
+] 
+AED: lastpage setting LastPage
+[2] (./Desabelle_Olyn_Phys180_Notes_1.aux) ) 
 Here is how much of TeX's memory you used:
  25563 strings out of 478599
- 519483 string characters out of 5858100
- 902578 words of memory out of 5000000
+ 519516 string characters out of 5858100
+ 904578 words of memory out of 5000000
  42959 multiletter control sequences out of 15000+600000
  409174 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,13n,108p,540b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Desabelle_Olyn_Phys180_Notes_1.pdf (2 pages, 109286 bytes).
+ 101i,13n,108p,551b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on Desabelle_Olyn_Phys180_Notes_1.pdf (2 pages, 134416 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
