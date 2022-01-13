@@ -75,11 +75,11 @@ $$\ce{^{A}_{Z}Y}$$
 
 where we note that:
 
-\begin{align}
+\begin{align*}
     &A\text{ is the }\textbf{mass/nucleon number}\text{ (\# of nucleons)}\\
     &Z\text{ is the }\textbf{proton/atomic number}\text{ (\# of protons)}\\
     &N\text{ is the }\textbf{neutron number}\text{ (\# of neutrons)}\\
-\end{align}
+\end{align*}
 
 with $\mathbf{A = Z+N}$. We also note that isotopes with: same $A$ = isobars; same $Z$ = isotopes; same $N$ = isotones. Some elements have multiple isotopes, with different stabilty and abundance.
 %\begin{shaded}
@@ -124,7 +124,8 @@ including the electron spin, the Mott cross-section is given by:
     \left(\frac{d\sigma}{d\Omega}\right)_0 [1-\beta^2\sin^2(\theta/2)]
 \end{align}
 
-in the nonrelativistic limit with no spin dependence, the Rutherford cross-section is given by:
+
+In the nonrelativistic limit with no spin dependence, the Rutherford cross-section is given by:
 
 \begin{align}
     \left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}} &=
@@ -135,10 +136,45 @@ Given $\mathbf{q} = \mathbf{p} - \mathbf{p}'$ where $\mathbf{p}$ and $\mathbf{p}
 
 \begin{align}
     F(\mathbf{q}^2) &= \frac{1}{Ze} \int e^{i\mathbf{q}\cdot\mathbf{r}/\hbar} f(\mathbf{r})\; \text{d}^3\mathbf{r}\\
-    F(\mathbf{q}^2) &= \frac{4\pi\hbar}{Zeq}\int_{0}^{\infty} r \rho(r) \sin\left(\frac{qr}{\hbar}\right)\;\text{d}r
+    F(\mathbf{q}^2) &= \frac{4\pi\hbar}{Zeq}\int_{0}^{\infty} r \rho(r) \sin\left(\frac{qr}{\hbar}\right)\;\text{d}r\\
+    F(\mathbf{q}^2) &= \frac{4\pi}{Ze}\int_{0}^{\infty} f(r)r^2\;\text{d}r - \frac{4\pi\mathbf{q}^2}{6Ze\hbar^2}\int_0^{\infty}f(r) r^4\;\text{d}r + \dots\\
 \end{align}
 
-\section*{SEMF}%----------------------------------------
+Experimental cross-section may be approximately related to the Mott cross-section by:
+
+\begin{align}
+    \left(\frac{d\sigma}{d\Omega}\right)_{\text{expt}} &=
+    \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}} |F(\mathbf{q}^2)|
+\end{align}
+
+Representing the nuclear charge distribution as a hard sphere where $\rho(r)$ is constant for $r\leq a$ and 0 otherwise, then the form factor simplifies to $F(\mathbf{q}^2)=3[\sin(b)-b\cos(b)]b^{-3}$.\newline
+
+The charge distribution may be obtained from the form factor using:
+
+\begin{align}
+    f(\mathbf{r}) = \frac{Ze}{(2\pi)^3}\int F(\mathbf{q}^2) e^{-i\mathbf{q}\cdot\mathbf{r}/\hbar}\text{d}^3\mathbf{q}
+\end{align}
+
+which can be simplified into:
+
+\begin{align}
+    f(r) = \rho_{\text{ch}}(r) = \frac{\rho^0_{\text{ch}}}{1+e^{(r-a)/b}}
+\end{align}
+
+where $a\approx 1.07A^{1/3}\;\text{fm}$ and $b\approx 0.54\;\text{fm}$.\newline
+
+Another important quantity would be the mean square charge radius:
+
+\begin{align}
+    \expval{r^2} &= \frac{1}{Ze} \int r^2 f(\mathbf{r})\;\text{d}^3\mathbf{r}\\
+    \expval{r^2} &= -6\hbar^2\frac{\text{d}F(\mathbf{q}^2)}{\text{d}\mathbf{q}^2}\biggr|_{\mathbf{q}^2=0}
+\end{align}
+
+for very small values of $\mathbf{q}^2$, for medium and heavy nuclei, $\expval{r^2}^{1/2} = 0.94A^{1/3}\;\text{fm}$.
+
+
+
+\section*{Semi-empirical mass formula (SEMF)}%----------------------------------------
 
 
 \section*{$\alpha$ emissions}%----------------------------------------
