@@ -176,9 +176,45 @@ for very small values of $\mathbf{q}^2$, for medium and heavy nuclei, $\expval{r
 
 \section*{Semi-empirical mass formula (SEMF)}%----------------------------------------
 
+The forces that bind nucleons also contribute to the total mass $M(Z,A)$ of an atom aside from the contributions of the proton (with mass $M_p$), neutron (with mass $M_n$), and electron (with mass $m_e$). This mass deficit is given by:
 
-\section*{$\alpha$ emissions}%----------------------------------------
-\section*{Radioactive decay}%----------------------------------------
+\begin{align}
+    \Delta M(Z,A) = M(Z,A) - Z(M_p+m_e) - NM_n
+\end{align}
+
+multiplying each side of the equation by $-c^2$ gives the \textbf{binding energy} $B$. \newline
+
+The atomic mass $M(Z,A)$ is given by a sum of terms:
+
+\begin{align}
+    M(Z,A) = \sum_{i=0}^{5} f_i(Z,A)
+\end{align}
+
+where each term is given by:
+
+\begin{align*}
+    \text{(mass of nucleons \& electrons) }\; f_0(Z,A) &= Z(M_p + m_e) + (A-Z)M_n\\
+    \text{(volume term) }\; f_1(Z,A) &= -a_1 A\\
+    \text{(surface term) }\; f_2(Z,A) &= a_2 A^{2/3}\\
+    \text{(Coulomb term) }\; f_3(Z,A) &= a_3 \frac{Z(Z-1)}{A^{1/3}} \approx a_3 \frac{Z^2}{A^{1/3}}\\
+    \text{(asymmetry term) }\; f_4(Z,A) &= a_4 \frac{(Z-A/2)^2}{A}\\
+    \text{(pairing term) }\; f_5(Z,A) &= -a_5 A^{-1/2}\; \text{if $Z$ and $N$ are even}\\
+    &= a_5 A^{-1/2}\; \text{if $Z$ and $N$ are odd}\\
+    &= 0 \; \text{otherwise}\\
+\end{align*}
+
+the constants of each term have the respective values:
+
+\begin{align*}
+    a_1 &= a_v = 15.56 \; \text{MeV/c}^2\\
+    a_2 &= a_s = 17.23 \; \text{MeV/c}^2\\
+    a_3 &= a_c = 0.697 \; \text{MeV/c}^2\\
+    a_4 &= a_a = 93.14 \; \text{MeV/c}^2\\
+    a_5 &= a_p = 12 \; \text{MeV/c}^2\\
+\end{align*}
+
+%\section*{$\alpha$ emissions}%----------------------------------------
+%\section*{Radioactive decay}%----------------------------------------
 %---------------------------------------
 %----------------------------------------
 \end{document}

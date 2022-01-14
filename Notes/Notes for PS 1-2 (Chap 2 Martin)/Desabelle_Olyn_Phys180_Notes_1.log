@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  13 JAN 2022 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 JAN 2022 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -888,22 +888,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
 
 AED: lastpage setting LastPage
-[2] [3] (/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.aux) ) 
+[3] (/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.aux) ) 
 Here is how much of TeX's memory you used:
- 25032 strings out of 480608
- 512504 string characters out of 5903631
+ 25025 strings out of 480608
+ 512404 string characters out of 5903631
  837466 words of memory out of 5000000
- 40436 multiletter control sequences out of 15000+600000
- 538082 words of font info for 48 fonts, out of 8000000 for 9000
+ 40430 multiletter control sequences out of 15000+600000
+ 536670 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,13n,103p,957b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on "/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.pdf" (3 pages, 137844 bytes).
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on "/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Notes/Notes for PS 1-2 (Chap 2 Martin)/Desabelle_Olyn_Phys180_Notes_1.pdf" (3 pages, 135659 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
