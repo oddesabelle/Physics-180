@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 JAN 2022 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  15 JAN 2022 13:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,48 +1000,48 @@ Package pdftex.def Info: 1a.png  used on input line 85.
 <1b.png, id=51, 977.15062pt x 52.69687pt>
 File: 1b.png Graphic file (type png)
 <use 1b.png>
-Package pdftex.def Info: 1b.png  used on input line 106.
+Package pdftex.def Info: 1b.png  used on input line 113.
 (pdftex.def)             Requested size: 390.85332pt x 21.07837pt.
- [2 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1b.png>]
-<1c.png, id=56, 965.85844pt x 33.87656pt>
-File: 1c.png Graphic file (type png)
-<use 1c.png>
-Package pdftex.def Info: 1c.png  used on input line 118.
-(pdftex.def)             Requested size: 386.33653pt x 13.55037pt.
- [3 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1c.png>]
-<1d.png, id=61, 980.91469pt x 59.47218pt>
-File: 1d.png Graphic file (type png)
-<use 1d.png>
-Package pdftex.def Info: 1d.png  used on input line 129.
-(pdftex.def)             Requested size: 392.35892pt x 23.78844pt.
- [4 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1d.png>]
-<2a.png, id=66, 989.94844pt x 68.50594pt>
-File: 2a.png Graphic file (type png)
-<use 2a.png>
-Package pdftex.def Info: 2a.png  used on input line 147.
-(pdftex.def)             Requested size: 395.97237pt x 27.40189pt.
- [5 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/2a.png>]
-<2b.png, id=71, 965.10562pt x 41.4047pt>
-File: 2b.png Graphic file (type png)
-<use 2b.png>
-Package pdftex.def Info: 2b.png  used on input line 166.
-(pdftex.def)             Requested size: 386.03542pt x 16.56157pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 169.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 116.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 169.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 116.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 169.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 116.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [6 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/2b.png>]
-<2c.png, id=77, 978.65625pt x 51.94406pt>
+) [2 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1b.png>]
+<1c.png, id=60, 965.85844pt x 33.87656pt>
+File: 1c.png Graphic file (type png)
+<use 1c.png>
+Package pdftex.def Info: 1c.png  used on input line 127.
+(pdftex.def)             Requested size: 386.33653pt x 13.55037pt.
+ [3 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1c.png>]
+<1d.png, id=65, 980.91469pt x 59.47218pt>
+File: 1d.png Graphic file (type png)
+<use 1d.png>
+Package pdftex.def Info: 1d.png  used on input line 144.
+(pdftex.def)             Requested size: 392.35892pt x 23.78844pt.
+ [4 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/1d.png>]
+<2a.png, id=70, 989.94844pt x 68.50594pt>
+File: 2a.png Graphic file (type png)
+<use 2a.png>
+Package pdftex.def Info: 2a.png  used on input line 162.
+(pdftex.def)             Requested size: 395.97237pt x 27.40189pt.
+ [5 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/2a.png>]
+<2b.png, id=75, 965.10562pt x 41.4047pt>
+File: 2b.png Graphic file (type png)
+<use 2b.png>
+Package pdftex.def Info: 2b.png  used on input line 181.
+(pdftex.def)             Requested size: 386.03542pt x 16.56157pt.
+ [6 </Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/2b.png>]
+<2c.png, id=80, 978.65625pt x 51.94406pt>
 File: 2c.png Graphic file (type png)
 <use 2c.png>
-Package pdftex.def Info: 2c.png  used on input line 185.
+Package pdftex.def Info: 2c.png  used on input line 200.
 (pdftex.def)             Requested size: 391.45557pt x 20.77725pt.
  
 AED: lastpage setting LastPage
@@ -1054,11 +1054,11 @@ Here is how much of TeX's memory you used:
  538691 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,11n,103p,914b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/Desabelle_180_Final.pdf" (7 pages, 160875 bytes).
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "/Users/olyndesabelle/Desktop/Acads/4th Year/1st Sem/Physics-180/Finals/Desabelle_180_Final.pdf" (7 pages, 183410 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
