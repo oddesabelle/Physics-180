@@ -48,94 +48,88 @@
 \newtheorem{note}{Note}
 \begin{document}
 \setcounter{section}{1}
-\title{Nuclear phenomenology}
+\title{Calculations in perturbation theory}
 
 %==============================================================
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Physics 180}
-\chead{Nuclear phenomenology}
+\chead{Calculations in perturbation theory}
 \lhead{Olyn D. Desabelle}
 \rfoot{Page \thepage}
 \setlength{\headheight}{12.0pt}
 
 \begin{center}
-{\LARGE \bf Nuclear phenomenology}\\
+{\LARGE \bf Calculations in perturbation theory}\\
 %{\large Physics 170}\\
 %Olyn D. Desabelle
 \end{center}
 
-\section*{Nuclides}%----------------------------------------
+\section*{Spin sums}%----------------------------------------
 
-%\subsection*{Dilute Interacting Bose gas}
+For a given process, the total amplitude $\mathcal{M}_{fi}$ is the sum of all individual amplitudes (possible Feynman diagrams), but terms aside fromt the matrix element of the lowest-order term are negligible. Including the spin, then the \textbf{spin-averaged matrix element} is given by:
 
-Nuclides are typically written as:
+\begin{align}
+    \expval{|\mathcal{M}_{fi}|^2} &= \frac{1}{4}\sum_{\text{spins}} |\mathcal{M}|^2\\
+    %\expval{|\mathcal{M}_{fi}|^2} 
+    &= \frac{1}{4} (|\mathcal{M}_{\text{RR}}|^2 + |\mathcal{M}_{\text{RL}}|^2 + |\mathcal{M}_{\text{LR}}|^2 + |\mathcal{M}_{\text{LL}}|^2)\\
+    &= \frac{1}{4} (|\mathcal{M}_{\text{RR}\to\text{RR}}|^2 + |\mathcal{M}_{\text{RR}\to\text{RL}}|^2 + \dots + |\mathcal{M}_{\text{RL}\to\text{RR}}|^2 + \dots)\\
+\end{align}
 
-$$\ce{^{A}_{Z}Y}$$
+\section*{Helicity amplitudes}%----------------------------------------
 
-where we note that:
+We consider an electron-positron annihilation:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{electron positron anal.png}
+\end{figure}
+
+For a helicity combination, the matrix element is given by:
+
+\begin{align}
+    \mathcal{M} = -\frac{e^2}{s}j_e\cdot j_{\mu}
+\end{align}
+
+with the currents given by:
 
 \begin{align*}
-    &A\text{ is the }\textbf{mass/nucleon number}\text{ (\# of nucleons)}\\
-    &Z\text{ is the }\textbf{proton/atomic number}\text{ (\# of protons)}\\
-    &N\text{ is the }\textbf{neutron number}\text{ (\# of neutrons)}\\
+    j^0_{\mu} &= \bar{u}_{\uparrow}(p_3)\gamma^0 v_{\downarrow}(p_4)\\
+    j^1_{\mu} &= \bar{u}_{\uparrow}(p_3)\gamma^1 v_{\downarrow}(p_4)\\
+    j^2_{\mu} &= \bar{u}_{\uparrow}(p_3)\gamma^2 v_{\downarrow}(p_4)\\
+    j^3_{\mu} &= \bar{u}_{\uparrow}(p_3)\gamma^3 v_{\downarrow}(p_4)\\
 \end{align*}
 
-with $\mathbf{A = Z+N}$. We also note that isotopes with: same $A$ = isobars; same $Z$ = isotopes; same $N$ = isotones. Some elements have multiple isotopes, with different stabilty and abundance.
-%\begin{shaded}
-    %\textbf{Cooper pairs}\newline
-%    \todo[inline, color = lime!20,caption={}]{
-%        $$\ce{^{A}_{Z}Y}$$
-        %$$\text{with } A = Z+N$$
-%   }
-    %where we note that:
-    %\todo[inline, color=lime!20,caption={}]{
-        %$A$ is the \textbf{mass/nucleon number} (\# of nucleons), \newline
-        %$Z$ is the \textbf{proton/atomic number} (\# of protons), and \newline
-        %$N$ is the \textbf{neutron number} (\# of neutrons).\newline
-        %\begin{align*}
-        %&A\text{ is the }\textbf{mass/nucleon number}\text{ (\# of nucleons)}\\
-        %&Z\text{ is the }\textbf{proton/atomic number}\text{ (\# of protons)}\\
-        %&N\text{ is the }\textbf{neutron number}\text{ (\# of neutrons)}\\
-%        \end{align*}
-%    }
-%    with $\mathbf{A = Z+N}$. We also note that isotopes with: same $A$ = isobars; same $Z$ = isotopes; same $N$ = isotones. Some elements have multiple isotopes, with different stabilty and abundance.
-%\end{shaded}
-
-\section*{Nuclear shapes and sizes}%----------------------------------------
-
-Nuclei may be treated as static charge distributions with normalization:
+and each component may be evaluated using: 
 
 \begin{align*}
-    \int f(\mathbf{r})\text{d}^3\mathbf{r} = Ze
-\end{align*}
-
-where $e$ is the electron charge. Under the Born approximation, the cross-section $\frac{d\sigma}{d\Omega}$ is given by:
-
-\begin{align*}
-    \left(\frac{d\sigma}{d\Omega}\right)_0 &= 
-    \frac{Z^2 \alpha^2 (\hbar c)^2}{4\beta^4 E^2 \sin^4(\theta/2)}
-\end{align*}
-
-including the electron spin, the Mott cross-section is given by:
-
-\begin{align*}
-    \left(\frac{d\sigma}{d\Omega}\right)_{\text{Mott}} &=
-    \left(\frac{d\sigma}{d\Omega}\right)_0 [1-\beta^2\sin^2(\theta/2)]
-\end{align*}
-
-in the nonrelativistic limit with no spin dependence, the Rutherford cross-section is given by:
-
-\begin{align*}
-    \left(\frac{d\sigma}{d\Omega}\right)_{\text{Rutherford}} &=
-    \frac{(\hbar c)^2 (\alpha Z)^2}{4m^2 v^4 \sin^4(\theta/2)}
+    \bar{\psi}\gamma^{0}\phi \equiv \psi^{\dagger}\gamma^{0}\gamma^{0}\phi &=
+    \psi_1^*\phi_1 + \psi_2^*\phi_2 + \psi_3^*\phi_3 + \psi_4^*\phi_4\\
+    \bar{\psi}\gamma^{1}\phi \equiv \psi^{\dagger}\gamma^{0}\gamma^{1}\phi &=
+    \psi_1^*\phi_4 + \psi_2^*\phi_3 + \psi_3^*\phi_2 + \psi_4^*\phi_1\\
+    \bar{\psi}\gamma^{2}\phi \equiv \psi^{\dagger}\gamma^{0}\gamma^{2}\phi &=
+    -i(\psi_1^*\phi_4 - \psi_2^*\phi_3 + \psi_3^*\phi_2 - \psi_4^*\phi_1)\\
+    \bar{\psi}\gamma^{3}\phi \equiv \psi^{\dagger}\gamma^{0}\gamma^{3}\phi &=
+    \psi_1^*\phi_3 + \psi_2^*\phi_4 + \psi_3^*\phi_1 + \psi_4^*\phi_2\\
 \end{align*}
 
 
-\section*{SEMF}%----------------------------------------
 
+\section*{Trace techniques}
 
-\section*{$\alpha$ emissions}%----------------------------------------
-%---------------------------------------
+In terms of trace, the sum of matrix element square for all matrices is given by:
+
+\begin{align}
+    \sum_{\text{spins}} |\mathcal{M}_{fi}|^2 &= \frac{e^4}{q^4} \mathcal{L}^{\mu\nu}_{(e)}\mathcal{L}^{(\mu)}_{\mu\nu}\\
+    &= \frac{e^4}{q^4}\Trace ([\cancel{p}_2-m]\gamma^{\mu}[\cancel{p}_1+m]\gamma^{\nu}) \times \Trace ([\cancel{p}_3+M]\gamma_{\mu}[\cancel{p}_4-M]\gamma_{\nu})
+\end{align}
+
+to evaluate the traces, the following theorems are applied:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.65]{trace.png}
+\end{figure}
+%----------------------------------------
 %----------------------------------------
 \end{document}
