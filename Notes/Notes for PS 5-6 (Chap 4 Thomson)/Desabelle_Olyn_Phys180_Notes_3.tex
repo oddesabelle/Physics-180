@@ -99,9 +99,339 @@ This has plane wave solutions in the form of:
 \end{align}
 
 
-\section*{The Dirac Equation}
+\section*{The Dirac Equation}%----------------------------------------
 
-%\subsection*{Dilute Interacting Bose gas}
+Dirac sought to find a wave equation that was first order in space and time derivatives (KGE had seecond order):
+
+\begin{align}
+    \hat{E}\psi &= (\mathbf{\alpha}\cdot\hat{\mathbf{p}} + \beta m)\psi\\
+    i \frac{\partial}{\partial t}\psi &= \left( -i\alpha_x \frac{\partial}{\partial x} -i\alpha_y \frac{\partial}{\partial y} -i\alpha_z \frac{\partial}{\partial z} + \beta m \right)\psi
+\end{align}
+
+in order to satisfy the KGE, $\alpha$ and $\beta$ must satisfy:
+
+\begin{align*}
+    \alpha_x^2 = \alpha_y^2 = \alpha_z^2 = \beta^2 &= I\\
+    \alpha_j\beta + \beta\alpha_j &= 0\\
+    \alpha_j \alpha_k + \alpha_k\alpha_j &= 0 \;\;\; (j\neq k)
+\end{align*}
+
+$\mathbf{\alpha}$ components and $\beta$ are usually explicitly written using the \textbf{Dirac-Pauli representation}:
+
+\begin{align*}
+    \beta = \begin{pmatrix}
+        I & 0\\
+        0 & -I
+    \end{pmatrix}
+    \;\;\; &
+    \alpha_i = \begin{pmatrix}
+        0 & \sigma_i\\
+        \sigma_i & 0
+    \end{pmatrix}\\
+    I = \begin{pmatrix}
+        1 & 0 \\
+        0 & 1 \\
+    \end{pmatrix}
+    \;\;\;
+    \sigma_x = \begin{pmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{pmatrix}
+    \;\;\;&
+    \sigma_y = \begin{pmatrix}
+        0 & -i\\
+        i & 0
+    \end{pmatrix}
+    \;\;\;
+    \sigma_z = \begin{pmatrix}
+        1 & 0\\
+        0 & -1
+    \end{pmatrix}
+\end{align*}
+
+\section*{Probability density and probability current }%----------------------------------------
+
+Starting with the KGE and after exploiting the Hermitian property of the $\alpha$ and $\beta$ matrices, a continuity equation may be obtained:
+
+\begin{align}
+    \nabla \cdot (\psi^{\dagger}\alpha\psi) + \frac{\partial (\psi^{\dagger}\psi)}{\partial t} = 0
+\end{align}
+
+with $\psi^{\dagger} = (\psi_1^*,\psi_2^*,\psi_3^*,\psi_4^*)$. The probability density and probability current then take the forms of:
+
+\begin{align*}
+    \rho &= \psi^{\dagger}\psi = |\psi_1|^2 +|\psi_2|^2 +|\psi_3|^2 +|\psi_4|^2 \\
+    \mathbf{j} &= \psi^{\dagger}\mathbf{\alpha}\psi
+\end{align*}
+
+\section*{Covariant form of the Dirac equation}%----------------------------------------
+
+The covariant form of the Dirac equation is given by:
+
+\begin{align}
+    (i\gamma^{\mu}\partial_{\mu} - m)\psi = 0
+\end{align}
+
+the gamma matrices are as follow:
+
+\begin{align*}
+    \gamma^0 = \begin{pmatrix}
+        1 & 0 & 0 & 0\\
+        0 & 1 & 0 & 0\\
+        0 & 0 & -1 & 0\\
+        0 & 0 & 0 & -1
+    \end{pmatrix}
+    \;\;\;&
+    \gamma^1 = \begin{pmatrix}
+        0 & 0 & 0 & 1\\
+        0 & 0 & 1 & 0\\
+        0 & -1 & 0 & 0\\
+        -1 & 0 & 0 & 0
+    \end{pmatrix}\\
+    \gamma^2 = \begin{pmatrix}
+        0 & 0 & 0 & -i\\
+        0 & 0 & i & 0\\
+        0 & i & 0 & 0\\
+        -i & 0 & 0 & 0
+    \end{pmatrix}
+    \;\;\;&
+    \gamma^4 = \begin{pmatrix}
+        0 & 0 & 1 & 0\\
+        0 & 0 & 0 & -1\\
+        -1 & 0 & 0 & 0\\
+        0 & 1 & 0 & 0
+    \end{pmatrix}\\
+\end{align*}
+
+the matrices satisfy conditions such as:
+
+\begin{align*}
+    (\gamma^0)^2 &= I\\
+    (\gamma^k)^2 &= -I\\
+    \gamma^{\mu}\gamma^{\nu} &= -\gamma^{\nu}\gamma^{\mu}\;\;\; (\mu\neq\nu)\\
+    \{\gamma^{\mu},\gamma^{\nu}\} &\equiv  \gamma^{\mu}\gamma^{\nu} +  \gamma^{\nu}\gamma^{\mu} = 2g^{\mu\nu}\\
+    \gamma^{0\dagger} &= \gamma^0\\
+    \gamma^{k\dagger} &= -\gamma^k\\
+\end{align*}
+
+\section*{The adjoint spinor and covariant current}%----------------------------------------
+%----------------------------------------
+
+The adjoint spinor may be defined as:
+
+\begin{align}
+    \bar{\psi} &= \psi^{\dagger}\gamma^0 = (\psi_1^*,\psi_2^*,-\psi_3^*,-\psi_4^*)
+\end{align}
+
+the four-vector current may then be written as:
+
+\begin{align}
+    j^{\mu} = \bar{\psi}\gamma^{\mu}\psi
+\end{align}
+
+\section*{Solutions to Dirac equation}
+
+Solutions may take the form of:
+
+\begin{align}
+    \psi(\mathbf{x},t) = u(E,\mathbf{p})e^{i(\mathbf{p}\cdot\mathbf{x}-Et)}
+\end{align}
+
+satisfying the Dirac  equation then the Dirac spinor $u$ satisfies:
+
+\begin{align}
+    (\gamma^{\mu}p_{\mu}-m)u = 0
+\end{align}
+
+\subsection*{Particles at rest}%-------------------------------
+
+Particles at rest have $\mathbf{p}=0$, thus we have:
+
+\begin{align}
+    \psi &= u(E,0)e^{-iEt}\\
+    E\gamma^0u = mu
+\end{align}
+
+this gives solutions of:
+
+\begin{align*}
+    \psi_1 = N\begin{pmatrix}
+        1\\
+        0\\
+        0\\
+        0
+    \end{pmatrix} e^{-imt}
+    \;\;\;&
+    \psi_2 = N\begin{pmatrix}
+        0\\
+        1\\
+        0\\
+        0
+    \end{pmatrix} e^{-imt}\\
+    \psi_3 = N\begin{pmatrix}
+        0\\
+        0\\
+        1\\
+        0
+    \end{pmatrix} e^{+imt}
+    \;\;\;&
+    \psi_1 = N\begin{pmatrix}
+        0\\
+        0\\
+        0\\
+        1
+    \end{pmatrix} e^{+imt}\\
+\end{align*}
+
+\subsection*{General free-particle solutions}%-------------------------------
+
+General free-particle solutions take the form of
+
+\begin{align}
+    \psi_i &= u(E,\mathbf{p})e^{i(\mathbf{p}\cdot\mathbf{x}-Et)}\\
+\end{align}
+
+where $u_i$ take form of:
+
+\begin{align*}
+    u_1 = N_1\begin{pmatrix}
+        1\\
+        0\\
+        \frac{p_z}{E+m}\\
+        \frac{p_x+ip_y}{E+m}
+    \end{pmatrix}
+    \;\;\; &
+    u_2 = N_2\begin{pmatrix}
+        0\\
+        1\\
+        \frac{p_x-ip_y}{E+m}\\
+        \frac{-p_z}{E+m}
+    \end{pmatrix}\\
+    u_3 = N_3\begin{pmatrix}
+        \frac{p_z}{E-m}\\
+        \frac{p_x+ip_y}{E-m}\\
+        1\\
+        0
+    \end{pmatrix}
+    \;\;\; &
+    u_4 = N_4\begin{pmatrix}
+        \frac{p_x-ip_y}{E-m}\\
+        \frac{-p_z}{E-m}
+        0\\
+        1\\
+    \end{pmatrix}\\
+\end{align*}
+
+\subsection*{Antiparticle solutions}%-------------------------------
+
+Antiparticle solutions take the form of
+
+\begin{align}
+    \psi_i &= v(E,\mathbf{p})e^{i(\mathbf{p}\cdot\mathbf{x}-Et)}\\
+\end{align}
+
+where $v_i$ take form of:
+
+\begin{align*}
+    v_1 = N\begin{pmatrix}
+        \frac{p_x-ip_y}{E+m}\\
+        \frac{-p_z}{E+m}\\
+        0\\
+        1\\
+    \end{pmatrix}
+    \;\;\; &
+    v_2 = N\begin{pmatrix}
+        \frac{p_z}{E+m}\\
+        \frac{p_x+ip_y}{E+m}\\
+        1\\
+        0\\
+    \end{pmatrix}\\
+    v_3 = N\begin{pmatrix}
+        1\\
+        0\\
+        \frac{p_z}{E-m}\\
+        \frac{p_x+ip_y}{E-m}\\
+    \end{pmatrix}
+    \;\;\; &
+    u_4 = N_4\begin{pmatrix}
+        0\\
+        1\\
+        \frac{p_x-ip_y}{E-m}\\
+        \frac{-p_z}{E-m}
+    \end{pmatrix}\\
+\end{align*}
+
+Usually, it is more natural to work with positive energy solutions for particles and antiparticles ($\{u_1,u_2,v_1,v_2\}$)
+
+\subsection*{Helicity}%----------------------------------------
+%----------------------------------------
+
+Particle helicity spinors take the form of:
+
+\begin{align*}
+    u_{\uparrow} = \sqrt{E+m}\begin{pmatrix}
+        c\\
+        se^{i\phi}\\
+        \frac{p}{E+m}c\\
+        \frac{p}{E+m}se^{i\phi}
+    \end{pmatrix}
+    \;\;\;&
+    u_{\downarrow} = \sqrt{E+m}\begin{pmatrix}
+        -s\\
+        ce^{i\phi}\\
+        \frac{p}{E+m}s\\
+        -\frac{p}{E+m}ce^{i\phi}
+    \end{pmatrix}\\
+    u_{\uparrow} \approx \sqrt{E}\begin{pmatrix}
+        c\\
+        se^{i\phi}\\
+        c\\
+        se^{i\phi}
+    \end{pmatrix}
+    \;\;\;&
+    u_{\downarrow} \approx \sqrt{E}\begin{pmatrix}
+        -s\\
+        ce^{i\phi}\\
+        s\\
+        -ce^{i\phi}
+    \end{pmatrix}
+    \;\;\; (E \gg m)
+\end{align*}
+
+Antiparticle helicity spinors take the form of:
+
+\begin{align*}
+    v_{\uparrow} = \sqrt{E+m}\begin{pmatrix}
+        \frac{p}{E+m}s\\
+        -\frac{p}{E+m}ce^{i\phi}\\
+        -s\\
+        ce^{i\phi}
+    \end{pmatrix}
+    \;\;\;&
+    v_{\downarrow} = \sqrt{E+m}\begin{pmatrix}
+        \frac{p}{E+m}c\\
+        \frac{p}{E+m}se^{i\phi}\\
+        c\\
+        se^{i\phi}
+    \end{pmatrix}\\
+    v_{\uparrow} = \sqrt{E}\begin{pmatrix}
+        s\\
+        -ce^{i\phi}\\
+        -s\\
+        ce^{i\phi}
+    \end{pmatrix}
+    \;\;\;&
+    v_{\downarrow} = \sqrt{E}\begin{pmatrix}
+        c\\
+        se^{i\phi}\\
+        c\\
+        se^{i\phi}
+    \end{pmatrix}
+    \;\;\; (E \gg m)
+\end{align*}
+
+
+%
 %----------------------------------------
 %---------------------------------------
 %----------------------------------------
