@@ -1180,12 +1180,6 @@ INPUT ./1a.png
 INPUT 1a.png
 INPUT ./1a.png
 INPUT ./1a.png
-INPUT c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./1b.png
-INPUT ./1b.png
-INPUT 1b.png
-INPUT ./1b.png
-INPUT ./1b.png
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -1218,6 +1212,22 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
+INPUT ./bhabha s-channel annihilation creation.png
+INPUT ./bhabha s-channel annihilation creation.png
+INPUT bhabha s-channel annihilation creation.png
+INPUT ./bhabha s-channel annihilation creation.png
+INPUT ./bhabha s-channel annihilation creation.png
+INPUT ./bhabha t-channel scattering.png
+INPUT ./bhabha t-channel scattering.png
+INPUT bhabha t-channel scattering.png
+INPUT ./bhabha t-channel scattering.png
+INPUT ./bhabha t-channel scattering.png
+INPUT c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./1b.png
+INPUT ./1b.png
+INPUT 1b.png
+INPUT ./1b.png
+INPUT ./1b.png
 INPUT ./1c.png
 INPUT ./1c.png
 INPUT 1c.png
@@ -1233,6 +1243,16 @@ INPUT ./2a.png
 INPUT 2a.png
 INPUT ./2a.png
 INPUT ./2a.png
+INPUT ./moller t-channel.png
+INPUT ./moller t-channel.png
+INPUT moller t-channel.png
+INPUT ./moller t-channel.png
+INPUT ./moller t-channel.png
+INPUT ./moller u-channel.png
+INPUT ./moller u-channel.png
+INPUT moller u-channel.png
+INPUT ./moller u-channel.png
+INPUT ./moller u-channel.png
 INPUT ./2b.png
 INPUT ./2b.png
 INPUT 2b.png
@@ -1245,7 +1265,9 @@ INPUT ./2c.png
 INPUT ./2c.png
 INPUT Desabelle_180_Final.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  16 JAN 2022 03:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  18 JAN 2022 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,77 +980,98 @@ Package mdframed Info: mdframed detected package amsthm
 File: my e-sig.jpg Graphic file (type jpg)
 <use my e-sig.jpg>
 Package pdftex.def Info: my e-sig.jpg  used on input line 70.
-(pdftex.def)             Requested size: 91.38855pt x 25.23651pt.
+(pdftex.def)             Requested size: 68.54141pt x 18.92738pt.
 <1a.png, id=42, 987.69pt x 72.27pt>
 File: 1a.png Graphic file (type png)
 <use 1a.png>
 Package pdftex.def Info: 1a.png  used on input line 85.
 (pdftex.def)             Requested size: 395.069pt x 28.90747pt.
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 88.
+ (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<bhabha s-channel annihilation creation.png, id=44, 527.352pt x 360.693pt>
+File: bhabha s-channel annihilation creation.png Graphic file (type png)
+<use bhabha s-channel annihilation creation.png>
+Package pdftex.def Info: bhabha s-channel annihilation creation.png  used on input line 92.
+(pdftex.def)             Requested size: 210.93706pt x 144.27463pt.
+<bhabha t-channel scattering.png, id=45, 438.0pt x 391.791pt>
+File: bhabha t-channel scattering.png Graphic file (type png)
+<use bhabha t-channel scattering.png>
+Package pdftex.def Info: bhabha t-channel scattering.png  used on input line 93.
+(pdftex.def)             Requested size: 175.1969pt x 156.71362pt.
+ [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./my e-sig.jpg> <./1a.png>]
-<1b.png, id=51, 977.15062pt x 52.69687pt>
+ <./my e-sig.jpg> <./1a.png> <./bhabha s-channel annihilation creation.png> <./bhabha t-channel scattering.png>]
+<1b.png, id=56, 977.15062pt x 52.69687pt>
 File: 1b.png Graphic file (type png)
 <use 1b.png>
 Package pdftex.def Info: 1b.png  used on input line 113.
 (pdftex.def)             Requested size: 390.85332pt x 21.07837pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 116.
- (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 116.
- (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 116.
- (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [2 <./1b.png>]
-<1c.png, id=60, 965.85844pt x 33.87656pt>
+ [2 <./1b.png>]
+<1c.png, id=64, 965.85844pt x 33.87656pt>
 File: 1c.png Graphic file (type png)
 <use 1c.png>
-Package pdftex.def Info: 1c.png  used on input line 127.
+Package pdftex.def Info: 1c.png  used on input line 138.
 (pdftex.def)             Requested size: 386.33653pt x 13.55037pt.
- [3 <./1c.png>]
-<1d.png, id=65, 980.91469pt x 59.47218pt>
+ [3 <./1c.png>] [4]
+<1d.png, id=74, 980.91469pt x 59.47218pt>
 File: 1d.png Graphic file (type png)
 <use 1d.png>
-Package pdftex.def Info: 1d.png  used on input line 144.
+Package pdftex.def Info: 1d.png  used on input line 187.
 (pdftex.def)             Requested size: 392.35892pt x 23.78844pt.
- [4 <./1d.png>]
-<2a.png, id=70, 989.94844pt x 68.50594pt>
+ [5 <./1d.png>]
+<2a.png, id=79, 989.94844pt x 68.50594pt>
 File: 2a.png Graphic file (type png)
 <use 2a.png>
-Package pdftex.def Info: 2a.png  used on input line 162.
+Package pdftex.def Info: 2a.png  used on input line 205.
 (pdftex.def)             Requested size: 395.97237pt x 27.40189pt.
- [5 <./2a.png>]
-<2b.png, id=75, 965.10562pt x 41.4047pt>
+<moller t-channel.png, id=80, 438.0pt x 391.791pt>
+File: moller t-channel.png Graphic file (type png)
+<use moller t-channel.png>
+Package pdftex.def Info: moller t-channel.png  used on input line 212.
+(pdftex.def)             Requested size: 175.1969pt x 156.71362pt.
+<moller u-channel.png, id=81, 542.025pt x 415.224pt>
+File: moller u-channel.png Graphic file (type png)
+<use moller u-channel.png>
+Package pdftex.def Info: moller u-channel.png  used on input line 220.
+(pdftex.def)             Requested size: 216.80615pt x 166.08665pt.
+ [6 <./2a.png> <./moller t-channel.png> <./moller u-channel.png>]
+<2b.png, id=88, 965.10562pt x 41.4047pt>
 File: 2b.png Graphic file (type png)
 <use 2b.png>
-Package pdftex.def Info: 2b.png  used on input line 181.
+Package pdftex.def Info: 2b.png  used on input line 231.
 (pdftex.def)             Requested size: 386.03542pt x 16.56157pt.
- [6 <./2b.png>]
-<2c.png, id=80, 978.65625pt x 51.94406pt>
+ [7 <./2b.png>]
+<2c.png, id=94, 978.65625pt x 51.94406pt>
 File: 2c.png Graphic file (type png)
 <use 2c.png>
-Package pdftex.def Info: 2c.png  used on input line 200.
+Package pdftex.def Info: 2c.png  used on input line 284.
 (pdftex.def)             Requested size: 391.45557pt x 20.77725pt.
  
 AED: lastpage setting LastPage
-[7 <./2c.png>] (./Desabelle_180_Final.aux) ) 
+[8 <./2c.png>] (./Desabelle_180_Final.aux) ) 
 Here is how much of TeX's memory you used:
- 26675 strings out of 478599
- 540426 string characters out of 5858100
- 932151 words of memory out of 5000000
- 44019 multiletter control sequences out of 15000+600000
+ 26703 strings out of 478599
+ 541349 string characters out of 5858100
+ 942152 words of memory out of 5000000
+ 44043 multiletter control sequences out of 15000+600000
  409783 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,11n,108p,518b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Desabelle_180_Final.pdf (7 pages, 188671 bytes).
+ 101i,12n,108p,518b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Desabelle_180_Final.pdf (8 pages, 375308 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

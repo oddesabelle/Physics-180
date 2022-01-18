@@ -67,7 +67,7 @@
     I swear upon my honor that I have not given nor received any unauthorized help on this exam and that all the work below are my own.
 \end{mdframed}
 \begin{figure}[H]
-    \includegraphics[scale = 20]{my e-sig.jpg}
+    \includegraphics[scale = 15]{my e-sig.jpg}
 \end{figure}
 
 DESABELLE, Olyn D.
@@ -85,13 +85,13 @@ DESABELLE, Olyn D.
     \includegraphics[scale = 0.4]{1a.png}
 \end{figure}
 
-There are two lowest-order Feynamn diagrams for this process. One is the pair annihilation represented by an s-channel diagram:
+There are two lowest-order Feynamn diagrams for this process. One is the pair annihilation $\to$ pair creation represented by an s-channel diagram (left) and the other is the scattering represented by a t-channel diagram (right):
 
-[insert here]
-
-and the other is the scattering represented by a t-channel diagram:
-
-[insert here]
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.4]{bhabha s-channel annihilation creation.png}
+    \includegraphics[scale = 0.4]{bhabha t-channel scattering.png}
+\end{figure}
 
 %\begin{align} Z =
 %\begin{cases}
@@ -113,7 +113,7 @@ and the other is the scattering represented by a t-channel diagram:
     \includegraphics[scale = 0.4]{1b.png}
 \end{figure}
 
-The process $e^+e^- \to e^+e^-$ does not have the same number of lowest-order Feynman diagram as the $e^+e^- \to \mu^+\mu^-$ process since the former has 2 while the latter only has 1. This is because
+The process $e^+e^- \to e^+e^-$ does not have the same number of lowest-order Feynman diagram as the $e^+e^- \to \mu^+\mu^-$ process since the former has 2 while the latter only has 1. This is because in the lowest-order the former can undergo either pair annihilation then pair creation or scattering, while the latter can only undergo pair annihilation.
 
 
 %==============================================================
@@ -121,19 +121,62 @@ The process $e^+e^- \to e^+e^-$ does not have the same number of lowest-order Fe
 %==============================================================
 
 
+We note that the Feynman rules for QED note the following contributions to the matrix element $\mathcal{M}$. We have the following contributions:
+
+\begin{align*}
+    \text{initial state particle }(e^{-}) \; &: \; u(p)\\
+    \text{initial state antiparticle }(e^{+}) \; &: \; \bar{v}(p)\\
+    \text{final state particle }(e^{-}) \; &: \; \bar{u}(p)\\
+    \text{final state antiparticle }(e^{+}) \; &: \; v(p)\\
+    \text{interaction vertex factor } \; &: \; ie\gamma^{\mu}\\
+    \text{photon propagator} \; &: \; -\frac{ig_{\mu\nu}}{q^2}\\
+\end{align*}
+
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale = 0.4]{1c.png}
 \end{figure}
 
-\underline{s-channel annihilation}
+\underline{s-channel annihilation + creation}
 
-Lorem
+\begin{align}
+    -i\mathcal{M} &= [\bar{v}(p_2)ie\gamma^{\mu}u(p_1)] 
+    \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_3)ie\gamma^{\nu}v(p_4)]\\
+    \mathcal{M} &= -[\bar{v}(p_2)e\gamma^{\mu}u(p_1)] 
+    \left[ \frac{g_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_3)e\gamma^{\nu}v(p_4)]\\
+    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
+    g_{\mu\nu}[\bar{u}(p_3)\gamma^{\nu}v(p_4)]\\
+\end{align}
+
+\begin{equation}
+\boxed{
+    \mathcal{M}= \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
+    [\bar{u}(p_3)\gamma_{\nu}v(p_4)]
+}
+\end{equation}
 
 \underline{t-channel scattering}
 
+\begin{align}
+    -i\mathcal{M} &= [\bar{v}(p_3)ie\gamma^{\mu}v(p_1)] 
+    \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)ie\gamma^{\nu}u(p_2)]\\
+    \mathcal{M} &= -[\bar{v}(p_3)e\gamma^{\mu}v(p_1)] 
+    \left[ \frac{g_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)e\gamma^{\nu}u(p_2)]\\
+    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
+    g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_2)]\\
+\end{align}
 
+\begin{equation}
+\boxed{
+    \mathcal{M}= \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
+    [\bar{u}(p_4)\gamma_{\nu}u(p_2)]
+}
+\end{equation}
 %==============================================================
 \newpage
 %==============================================================
@@ -164,11 +207,18 @@ Lorem
 
 The lowest-order t-channel Feynman diagram for the process is given by:
 
-[insert here]
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.4]{moller t-channel.png}
+\end{figure}
+
 
 The lowest-order u-channel Feynman diagram for the process is given by:
 
-[insert here]
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.4]{moller u-channel.png}
+\end{figure}
 
 %==============================================================
 \newpage
@@ -181,15 +231,49 @@ The lowest-order u-channel Feynman diagram for the process is given by:
     \includegraphics[scale = 0.4]{2b.png}
 \end{figure}
 
-We note that the Feynman rules for QED note the following contributions to the matrix element $\mathcal{M}$
-
 \underline{t-channel}
 
 For the t-channel Feynman diagram, the matrix element $\mathcal{M}$ is given by:
 
+\begin{align}
+    -i\mathcal{M} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_1)] 
+    \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)ie\gamma^{\nu}u(p_2)]\\
+    \mathcal{M} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_1)] 
+    \left[ \frac{g_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)e\gamma^{\nu}u(p_2)]\\
+    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
+    g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_2)]\\
+\end{align}
+
+\begin{equation}
+\boxed{
+    \mathcal{M}= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
+    [\bar{u}(p_4)\gamma_{\nu}u(p_2)]
+}
+\end{equation}
+
 \underline{u-channel}
 
 For the u-channel Feynman diagram, the matrix element $\mathcal{M}$ is given by:
+
+\begin{align}
+    -i\mathcal{M} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_2)] 
+    \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)ie\gamma^{\nu}u(p_1)]\\
+    \mathcal{M} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_2)] 
+    \left[ \frac{g_{\mu\nu}}{q^2} \right]
+    [\bar{u}(p_4)e\gamma^{\nu}u(p_1)]\\
+    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
+    g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_1)]\\
+\end{align}
+
+\begin{equation}
+\boxed{
+    \mathcal{M}= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
+    [\bar{u}(p_4)\gamma_{\nu}u(p_1)]
+}
+\end{equation}
 %==============================================================
 \newpage
 %==============================================================

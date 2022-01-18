@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1642275205 "d:/olynd/Documents/4th Year 1st Sem/Physics-180/Finals/Desabelle_180_Final.tex" "Desabelle_180_Final.pdf" "Desabelle_180_Final" 1642275207
+["pdflatex"] 1642513929 "d:/olynd/Documents/4th Year 1st Sem/Physics-180/Finals/Desabelle_180_Final.tex" "Desabelle_180_Final.pdf" "Desabelle_180_Final" 1642513932
   "1a.png" 1642027003 24983 b29d99c2396c566381e4359f077fb02f ""
   "1b.png" 1642027015 33828 098ba75026cdabd77ca81f6e595b6389 ""
   "1c.png" 1642027032 19063 4a318b4d4d9f66922dc837e3c231acb7 ""
@@ -7,8 +7,10 @@
   "2a.png" 1642027075 26033 1dfd9889d8115ecb8fa0f9d0f7ed9dc4 ""
   "2b.png" 1642027085 19124 2c5cf08c89afd283a1b6a24b6f5c0e4b ""
   "2c.png" 1642027093 35505 ae62648cad12e23db93ebf79f4b68807 ""
-  "Desabelle_180_Final.aux" 1642275207 481 0d60b5faff48e13c971a2a2d6ebfb2bf "pdflatex"
-  "Desabelle_180_Final.tex" 1642275200 5745 041e331e3e76c694a358c4065a2934ab ""
+  "Desabelle_180_Final.aux" 1642513932 481 212ddc679003c2d080f7c7dd7b1e9080 "pdflatex"
+  "Desabelle_180_Final.tex" 1642513928 9086 8f5e544c35b00d76ac6aad744b8fa2a2 ""
+  "bhabha s-channel annihilation creation.png" 1642513273 35038 2d8cc05ebdc2a91df03b7bfe81e89b28 ""
+  "bhabha t-channel scattering.png" 1642513284 32533 5119700d54897fc8ce1605a996ac742f ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1633918352 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1633916820 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1633916820 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -32,7 +34,9 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm" 1633920695 688 37338d6ab346c2f1466b29e195316aa4 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm" 1633920695 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1633916820 32080 340ef9bf63678554ee606688e7b5339d ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1633916820 30251 6afa5cb1d0204815a708a080681d4674 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1633916820 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1633916820 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1633916820 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1633916820 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1633916820 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -217,9 +221,11 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1633922359 4399729 ba2bdf7099c8a2ba97051a2b802eaeb0 ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1633922445 2797775 2926fbcbf5cd2723707c941e858f5fcb ""
   "c:/texlive/2021/texmf.cnf" 1633922338 713 e69b156964470283e0530f5060668171 ""
-  "d:/olynd/Documents/4th Year 1st Sem/Physics-180/Finals/Desabelle_180_Final.tex" 1642275200 5745 041e331e3e76c694a358c4065a2934ab ""
+  "d:/olynd/Documents/4th Year 1st Sem/Physics-180/Finals/Desabelle_180_Final.tex" 1642513928 9086 8f5e544c35b00d76ac6aad744b8fa2a2 ""
+  "moller t-channel.png" 1642513295 32207 617278eacf9a2c6febceccf48989be3d ""
+  "moller u-channel.png" 1642513306 38491 667d3fdf5ecbf66bac93a1672f697d41 ""
   "my e-sig.jpg" 1519877562 7350 1fe7d6e9b1114e04a8d2ec5100dd2297 ""
   (generated)
   "Desabelle_180_Final.log"
-  "Desabelle_180_Final.pdf"
   "Desabelle_180_Final.aux"
+  "Desabelle_180_Final.pdf"
