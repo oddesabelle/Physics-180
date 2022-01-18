@@ -119,6 +119,10 @@ The process $e^+e^- \to e^+e^-$ does not have the same number of lowest-order Fe
 %==============================================================
 \newpage
 %==============================================================
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale = 0.4]{1c.png}
+\end{figure}
 
 
 We note that the Feynman rules for QED note the following contributions to the matrix element $\mathcal{M}$. We have the following contributions:
@@ -133,27 +137,23 @@ We note that the Feynman rules for QED note the following contributions to the m
 \end{align*}
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = 0.4]{1c.png}
-\end{figure}
 
 \underline{s-channel annihilation + creation}
 
 \begin{align}
-    -i\mathcal{M} &= [\bar{v}(p_2)ie\gamma^{\mu}u(p_1)] 
+    -i\mathcal{M}_{s} &= [\bar{v}(p_2)ie\gamma^{\mu}u(p_1)] 
     \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_3)ie\gamma^{\nu}v(p_4)]\\
-    \mathcal{M} &= -[\bar{v}(p_2)e\gamma^{\mu}u(p_1)] 
+    \mathcal{M}_{s} &= -[\bar{v}(p_2)e\gamma^{\mu}u(p_1)] 
     \left[ \frac{g_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_3)e\gamma^{\nu}v(p_4)]\\
-    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
+    \mathcal{M}_{s} &= \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
     g_{\mu\nu}[\bar{u}(p_3)\gamma^{\nu}v(p_4)]\\
 \end{align}
 
 \begin{equation}
 \boxed{
-    \mathcal{M}= \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
+    \mathcal{M}_{s} = \frac{-e^2}{q^2} [\bar{v}(p_2)\gamma^{\mu}u(p_1)]
     [\bar{u}(p_3)\gamma_{\nu}v(p_4)]
 }
 \end{equation}
@@ -161,31 +161,35 @@ We note that the Feynman rules for QED note the following contributions to the m
 \underline{t-channel scattering}
 
 \begin{align}
-    -i\mathcal{M} &= [\bar{v}(p_3)ie\gamma^{\mu}v(p_1)] 
+    -i\mathcal{M}_{t} &= [\bar{v}(p_3)ie\gamma^{\mu}v(p_1)] 
     \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)ie\gamma^{\nu}u(p_2)]\\
-    \mathcal{M} &= -[\bar{v}(p_3)e\gamma^{\mu}v(p_1)] 
+    \mathcal{M}_{t} &= -[\bar{v}(p_3)e\gamma^{\mu}v(p_1)] 
     \left[ \frac{g_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)e\gamma^{\nu}u(p_2)]\\
-    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
+    \mathcal{M}_{t} &= \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
     g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_2)]\\
 \end{align}
 
 \begin{equation}
 \boxed{
-    \mathcal{M}= \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
+    \mathcal{M}_{t} = \frac{-e^2}{q^2} [\bar{v}(p_3)\gamma^{\mu}v(p_1)]
     [\bar{u}(p_4)\gamma_{\nu}u(p_2)]
 }
 \end{equation}
 %==============================================================
-\newpage
+%\newpage
 %==============================================================
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = 0.4]{1d.png}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale = 0.4]{1d.png}
+%\end{figure}
+
+%We may obtain the matrix squared element by combining the two previously obtained matrix elements (written in Mandelstam variables):
+
+%afterwards, we may obtain the spin-averaged matrix element using trace formalism:
 
 
 %==============================================================
@@ -236,19 +240,19 @@ The lowest-order u-channel Feynman diagram for the process is given by:
 For the t-channel Feynman diagram, the matrix element $\mathcal{M}$ is given by:
 
 \begin{align}
-    -i\mathcal{M} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_1)] 
+    -i\mathcal{M}_{t} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_1)] 
     \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)ie\gamma^{\nu}u(p_2)]\\
-    \mathcal{M} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_1)] 
+    \mathcal{M}_{t} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_1)] 
     \left[ \frac{g_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)e\gamma^{\nu}u(p_2)]\\
-    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
+    \mathcal{M}_{t} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
     g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_2)]\\
 \end{align}
 
 \begin{equation}
 \boxed{
-    \mathcal{M}= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
+    \mathcal{M}_{t} = \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_1)]
     [\bar{u}(p_4)\gamma_{\nu}u(p_2)]
 }
 \end{equation}
@@ -258,41 +262,33 @@ For the t-channel Feynman diagram, the matrix element $\mathcal{M}$ is given by:
 For the u-channel Feynman diagram, the matrix element $\mathcal{M}$ is given by:
 
 \begin{align}
-    -i\mathcal{M} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_2)] 
+    -i\mathcal{M}_{u} &= [\bar{u}(p_3)ie\gamma^{\mu}u(p_2)] 
     \left[ \frac{-ig_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)ie\gamma^{\nu}u(p_1)]\\
-    \mathcal{M} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_2)] 
+    \mathcal{M}_{u} &= -[\bar{u}(p_3)e\gamma^{\mu}u(p_2)] 
     \left[ \frac{g_{\mu\nu}}{q^2} \right]
     [\bar{u}(p_4)e\gamma^{\nu}u(p_1)]\\
-    \mathcal{M} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
+    \mathcal{M}_{u} &= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
     g_{\mu\nu}[\bar{u}(p_4)\gamma^{\nu}u(p_1)]\\
 \end{align}
 
 \begin{equation}
 \boxed{
-    \mathcal{M}= \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
+    \mathcal{M}_{u} = \frac{-e^2}{q^2} [\bar{u}(p_3)\gamma^{\mu}u(p_2)]
     [\bar{u}(p_4)\gamma_{\nu}u(p_1)]
 }
 \end{equation}
 %==============================================================
-\newpage
+%\newpage
 %==============================================================
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale = 0.4]{2c.png}
-\end{figure}
+%\begin{figure}[H]
+%    \centering
+%    \includegraphics[scale = 0.4]{2c.png}
+%\end{figure}
 
-We note that the spin-averaged matrix element is given by:
 
-\underline{t-channel}
-
-For the t-channel Feynman diagram, 
-
-\underline{u-channel}
-
-For the u-channel Feynman diagram,
 %==================================
 %helpful ps8 and ps9
 \end{document}

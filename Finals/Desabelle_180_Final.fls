@@ -1233,11 +1233,6 @@ INPUT ./1c.png
 INPUT 1c.png
 INPUT ./1c.png
 INPUT ./1c.png
-INPUT ./1d.png
-INPUT ./1d.png
-INPUT 1d.png
-INPUT ./1d.png
-INPUT ./1d.png
 INPUT ./2a.png
 INPUT ./2a.png
 INPUT 2a.png
@@ -1258,11 +1253,6 @@ INPUT ./2b.png
 INPUT 2b.png
 INPUT ./2b.png
 INPUT ./2b.png
-INPUT ./2c.png
-INPUT ./2c.png
-INPUT 2c.png
-INPUT ./2c.png
-INPUT ./2c.png
 INPUT Desabelle_180_Final.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

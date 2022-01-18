@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  18 JAN 2022 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.11)  18 JAN 2022 23:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1020,58 +1020,46 @@ Package pdftex.def Info: 1b.png  used on input line 113.
 <1c.png, id=64, 965.85844pt x 33.87656pt>
 File: 1c.png Graphic file (type png)
 <use 1c.png>
-Package pdftex.def Info: 1c.png  used on input line 138.
+Package pdftex.def Info: 1c.png  used on input line 124.
 (pdftex.def)             Requested size: 386.33653pt x 13.55037pt.
  [3 <./1c.png>] [4]
-<1d.png, id=74, 980.91469pt x 59.47218pt>
-File: 1d.png Graphic file (type png)
-<use 1d.png>
-Package pdftex.def Info: 1d.png  used on input line 187.
-(pdftex.def)             Requested size: 392.35892pt x 23.78844pt.
- [5 <./1d.png>]
-<2a.png, id=79, 989.94844pt x 68.50594pt>
+<2a.png, id=74, 989.94844pt x 68.50594pt>
 File: 2a.png Graphic file (type png)
 <use 2a.png>
-Package pdftex.def Info: 2a.png  used on input line 205.
+Package pdftex.def Info: 2a.png  used on input line 209.
 (pdftex.def)             Requested size: 395.97237pt x 27.40189pt.
-<moller t-channel.png, id=80, 438.0pt x 391.791pt>
+<moller t-channel.png, id=75, 438.0pt x 391.791pt>
 File: moller t-channel.png Graphic file (type png)
 <use moller t-channel.png>
-Package pdftex.def Info: moller t-channel.png  used on input line 212.
+Package pdftex.def Info: moller t-channel.png  used on input line 216.
 (pdftex.def)             Requested size: 175.1969pt x 156.71362pt.
-<moller u-channel.png, id=81, 542.025pt x 415.224pt>
+<moller u-channel.png, id=76, 542.025pt x 415.224pt>
 File: moller u-channel.png Graphic file (type png)
 <use moller u-channel.png>
-Package pdftex.def Info: moller u-channel.png  used on input line 220.
+Package pdftex.def Info: moller u-channel.png  used on input line 224.
 (pdftex.def)             Requested size: 216.80615pt x 166.08665pt.
- [6 <./2a.png> <./moller t-channel.png> <./moller u-channel.png>]
-<2b.png, id=88, 965.10562pt x 41.4047pt>
+ [5 <./2a.png> <./moller t-channel.png> <./moller u-channel.png>]
+<2b.png, id=83, 965.10562pt x 41.4047pt>
 File: 2b.png Graphic file (type png)
 <use 2b.png>
-Package pdftex.def Info: 2b.png  used on input line 231.
+Package pdftex.def Info: 2b.png  used on input line 235.
 (pdftex.def)             Requested size: 386.03542pt x 16.56157pt.
- [7 <./2b.png>]
-<2c.png, id=94, 978.65625pt x 51.94406pt>
-File: 2c.png Graphic file (type png)
-<use 2c.png>
-Package pdftex.def Info: 2c.png  used on input line 284.
-(pdftex.def)             Requested size: 391.45557pt x 20.77725pt.
  
 AED: lastpage setting LastPage
-[8 <./2c.png>] (./Desabelle_180_Final.aux) ) 
+[6 <./2b.png>] (./Desabelle_180_Final.aux) ) 
 Here is how much of TeX's memory you used:
- 26703 strings out of 478599
- 541349 string characters out of 5858100
- 942152 words of memory out of 5000000
- 44043 multiletter control sequences out of 15000+600000
+ 26689 strings out of 478599
+ 541203 string characters out of 5858100
+ 943152 words of memory out of 5000000
+ 44031 multiletter control sequences out of 15000+600000
  409783 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,108p,518b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Desabelle_180_Final.pdf (8 pages, 375308 bytes).
+Output written on Desabelle_180_Final.pdf (6 pages, 336564 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
